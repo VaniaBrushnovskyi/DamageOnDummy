@@ -1,0 +1,13 @@
+.btn__blocks_one,
+.btn__blocks_two {
+    &:hover{
+        cursor: pointer;
+        background-color: #999999;
+        transition: .1s ease-out;
+    }
+    &:active {
+        outline: 2px solid #fff;
+        outline-offset: -2px;
+    }
+}
+

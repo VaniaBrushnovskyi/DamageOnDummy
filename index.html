@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <section class="arena__background">
+            <div class="arena__background_hp">
+                1000 / 1000
+            </div>
+            <div class="arena__background_health-bar">
+                <div class="arena__current-health" id="current-health">
+                </div>
+            </div>
+            <div class="arena__background_dummy" id="dummy">
+                <img class="image" src="img/tank.png" alt="dummy">
+            </div>
+            <div class="arena__damage-log" id="damage-log">
+                <h3>Damage Log: </h3>
+                <ul id="log-list"></ul>
+            </div>
+        </section>
+
+        <section class="btn__blocks">
+            <div class="btn__blocks_one">Підкрутка</div>
+            <div class="btn__blocks_two">Відкрутка</div>
+        </section>
+    </div>
+    <script src="js/clickDMG.js"></script>
+    <script src="js/health-bar.js"></script>
+</body>
+</html>
